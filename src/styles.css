@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-color: #161616;
+}
+
+.not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-button {
+  margin: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: violet;
+  font-size: 1rem;
+  transition: background-color 0.4s ease;
+}
+
+.primary-button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.primary-button {
+  margin: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  font-size: 1rem;
+}
+
+.App {
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  flex-grow: 1;
+  margin: 16px;
+  background-color: #212121;
+  width: 80px;
+  height: auto;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease;
+  border-radius: 8px;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  background-color: #343434;
+}
+
+.list-item-title {
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: transparent;
+  max-lines: 1;
+  color: white;
+  text-align: center;
+}
+
+.list-item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.searchbar {
+  margin: 16px;
+  border-width: 0px;
+  padding: 8px;
+  color: white;
+  border-radius: 4px;
+  width: 50%;
+  background-color: #343434;
+}
+
+.detail-wrapper {
+  background-color: #343434;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.detail-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.detail-image-wrapper {
+  width: 200px;
+  height: 200px;
+}
+
+.detail-image {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.back-button {
+  margin-top: 16px;
+  padding: 10px;
+  font-size: 16px;
+  border-width: 0;
+  background-color: #F44250;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  background-color: #cc2e68;
+}
